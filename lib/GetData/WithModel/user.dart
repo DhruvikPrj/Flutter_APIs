@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:gitflutter/Models/userModel.dart';
 import 'package:http/http.dart' as http;
-import 'package:new_project/Models/userModel.dart';
 
 class UserData extends StatefulWidget {
   const UserData({super.key});
